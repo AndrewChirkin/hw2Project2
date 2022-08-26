@@ -1,16 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-    int vegetables = 8;
+    int vegetables = 27897;
     System.out.println("Значение переменной vegetables с типом int равно " +  vegetables);
-    byte fruits = 11;
+    byte fruits = 67;
     System.out.println("Значение переменной fruits с типом byte равно " + fruits);
-    short berries = 6;
-    System.out.println("Значение переменной berries с типом short равно " + berries);
-    long years = 666L;
+    short dollars = -159;
+    System.out.println("Значение переменной dollars с типом short равно " + dollars);
+    long years = 987678965549L;
     System.out.println("Значение переменной years с типом long равно " + years);
-    float pi = (float) 3.1415926535897932384626433832795;
+    float pi = (float) 27.12;
     System.out.println("Значение переменной pi с типом float равно " + pi);
-    double cappuccino = 2;
-    System.out.println("Значение переменной cappuccino с типом double равно " + cappuccino);
+    double smth = 2.7876;
+    System.out.println("Значение переменной smth с типом double равно " + smth);
+    boolean truth = false;
+    System.out.println("Значение переменной truth с типом boolean равно " + truth);
+    char chairs = 569;
+    System.out.println("Значение переменной chairs с типом char равно " + chairs);
     }
 }
