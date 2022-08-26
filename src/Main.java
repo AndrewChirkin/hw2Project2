@@ -1,14 +1,28 @@
 public class Main {
     public static void main(String[] args) {
-    int totalWeightLoss = 7 * 1000;
-    short minWeightLoss = 250;
-    short maxWeightLoss = 500;
-    int meanWeightLoss = (minWeightLoss + maxWeightLoss)/2;
-    int daysWithMin = totalWeightLoss / minWeightLoss;
-    System.out.println(daysWithMin + " - дней понадобится спорстмену для похудения, если он будет терять " + minWeightLoss + " грамм в день.");
-    int daysWithMax = totalWeightLoss / maxWeightLoss;
-    System.out.println(daysWithMax + " - дней понадобится спорстмену для похудения, если он будет терять " + maxWeightLoss + " грамм в день.");
-    int daysWithMean = totalWeightLoss / meanWeightLoss;
-        System.out.println(daysWithMean + " - дней понадобится спорстмену для похудения, если он будет терять " + meanWeightLoss + " грамм в день.");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        double newSalaryMasha = salaryMasha * 1.1;
+        double newSalaryDenis = salaryDenis * 1.1;
+        double newSalaryKristina = salaryKristina * 1.1;
+        int yearEarningsMashaBefore = salaryMasha * 12;
+        int yearEarningsDenisBefore = salaryDenis * 12;
+        int yearEarningsKristinaBefore = salaryKristina * 12;
+        double yearEarningsMashaAfter = newSalaryMasha * 12;
+        double yearEarningsDenisAfter = newSalaryDenis * 12;
+        double yearEarningsKristinaAfter = newSalaryKristina * 12;
+        double differenceMasha = yearEarningsMashaAfter - yearEarningsMashaBefore;
+        double differenceDenis = yearEarningsDenisAfter - yearEarningsDenisBefore;
+        double differenceKristina = yearEarningsKristinaAfter - yearEarningsKristinaBefore;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей");
+
+
+
+
+
+
     }
 }
