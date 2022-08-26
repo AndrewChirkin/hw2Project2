@@ -1,15 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        byte bananaWeight = 80;
-        byte milkWeight = 105;
-        byte iceCreamWeight = 100;
-        byte eggWeight = 70;
-        int breakfastWeightInGramms = bananaWeight * 5
-                + milkWeight * 2 + iceCreamWeight * 2 + eggWeight * 4;
-        int breakfastWeightInKg = breakfastWeightInGramms / 1000;
-        System.out.println("Завтрак спортмена весит " + breakfastWeightInKg + " килограмм");
-
-
-
+    int totalWeightLoss = 7 * 1000;
+    short minWeightLoss = 250;
+    short maxWeightLoss = 500;
+    int meanWeightLoss = (minWeightLoss + maxWeightLoss)/2;
+    int daysWithMin = totalWeightLoss / minWeightLoss;
+    System.out.println(daysWithMin + " - дней понадобится спорстмену для похудения, если он будет терять " + minWeightLoss + " грамм в день.");
+    int daysWithMax = totalWeightLoss / maxWeightLoss;
+    System.out.println(daysWithMax + " - дней понадобится спорстмену для похудения, если он будет терять " + maxWeightLoss + " грамм в день.");
+    int daysWithMean = totalWeightLoss / meanWeightLoss;
+        System.out.println(daysWithMean + " - дней понадобится спорстмену для похудения, если он будет терять " + meanWeightLoss + " грамм в день.");
     }
 }
